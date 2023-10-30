@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.toggled {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 0;
+}
+header {
+  display: none;
+}
+
+.clickable {
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+  z-index: 1;
+}
+
+#moneyContainer {
+  text-align: center;
+}
+
+#moneyDisplay {
+  font-size: 24px;
+  color: green;
+  display: flex;
+  align-items: center;
+}
+
+#moneySymbol {
+  font-size: 18px;
+  margin-right: 5px;
+  color: green;
+}
+
+#businessesBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+#passiveIncome {
+  color: white;
+  font-size: 16px;
+}
+
+.businessButton {
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  background: none;
+}
+
+#factoryImage {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#factoryPrice {
+  margin-bottom: 5px;
+}
+
+#buyFactoryButton {
+  margin-top: 5px;
+}
